@@ -1,0 +1,8 @@
+Requirment:
+
+1. we already of jokes
+
+Operations:
+
+1. ask user for category, return the random joke
+2. randomly give me the joke

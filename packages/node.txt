@@ -1,0 +1,27 @@
+npm : node package manger
+
+we have me different package like 
+1.bun 
+2.pnpn etc
+
+steps to create a package
+1. ceate a folder
+2.cd to the folder
+3.initialize npm init it will create package.json
+
+package.json will be created (and the will hold the data of the projects)
+
+
+External packages
+
+we have cjs (common js) import/export syntax
+
+single import/export syntax
+module.exports()
+const variableName = require('./filepath')
+
+multy import/export syntax
+module.exports()
+const variableName = require('./filepath')
+
+ES6 (Ecemascript Module) import/export syntax

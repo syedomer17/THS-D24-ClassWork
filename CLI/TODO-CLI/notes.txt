@@ -1,0 +1,22 @@
+TODO-CLI 
+
+re 
+1.Requirments
+2.data store
+
+
+Requirments 
+1.user should add there TODO
+2.user should able to update the TODO
+3.user should able to delete the TODO
+4.user should able to see all the TODOs
+
+CRUD'S OPERATIONS (create,read,uppdate,delete)
+
+OPERATIONS we have to do 
+
+single TODO title 
+ we can use to thing array or objects
+
+
+    

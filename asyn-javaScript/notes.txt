@@ -1,0 +1,32 @@
+synchronous : It will work sequienc
+
+Asynchronous : It will not work on the sequiencly
+
+---------------------------------------------------------------
+
+Asynchronous:
+1.callBack
+2.promisers
+a. .then|catch
+b. .asyn|await
+
+-----------------------------------------------------------------
+
+setTimeOut :
+
+1.If you don't give timer in setTimeOut then it will 
+follow from top to bottom.
+
+2.synchronous operation will perform first then the Asynchronous 
+operation will performs.
+
+3.Asynchronous is a non blocking i.e (all the setTimeOut will follow sequiencly).
+
+4.nested setTimeOut are dependet on the outer setTimeOut.
+
+5.All the Asynchronous setTimeOut will go task queue and also called macro queue.
+
+6.Normal function will go to the call stack.
+
+7.if the setTimeOut times are same it will follow the Normal queue.
+

@@ -1,0 +1,16 @@
+{
+  "name": "matrix-cli",
+  "version": "1.0.0",
+  "description": "This is my Matric-cli project",
+  "license": "ISC",
+  "author": "Syed Omer Ali",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

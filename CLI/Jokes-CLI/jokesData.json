@@ -1,0 +1,508 @@
+[
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "Why did the Python programmer not respond to the foreign mails he got?",
+        "delivery": "Because his interpreter was busy collecting garbage.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 15,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "Why do programmers wear glasses?",
+        "delivery": "Because they need to C#",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 50,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "Hey baby I wish your name was asynchronous...",
+        "delivery": "... so you'd give me a callback.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 54,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "What do you call a developer who doesn't comment code?",
+        "delivery": "A developer.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 14,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "UDP is better in the COVID era since it avoids unnecessary handshakes.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 259,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "What do you call a group of 8 Hobbits?",
+        "delivery": "A Hobbyte.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 29,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "setup": "What's the object-oriented way to become wealthy?",
+        "delivery": "Inheritance.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 46,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "Debugging: Removing the needles from the haystack.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 40,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "Algorithm: A word used by programmers when they don't want to explain how their code works.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 51,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "A SQL statement walks into a bar and sees two tables.\nIt approaches, and asks \"may I join you?\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 5,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "Why didn't the skeleton go for prom?",
+        "delivery": "Because it had nobody.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 183,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "Why do ghosts go on diets?",
+        "delivery": "So they can keep their ghoulish figures.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 295,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "What is in a ghost's nose?",
+        "delivery": "Boo-gers.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 296,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "What's it like to be kissed by a vampire?",
+        "delivery": "It's a pain in the neck.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 297,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "What does a turkey dress up as for Halloween?",
+        "delivery": "A gobblin'!",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 298,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "Why did the ghost go inside the bar?",
+        "delivery": "For the boos.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 299,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "How do Rednecks celebrate Halloween?",
+        "delivery": "Pump kin!",
+        "flags": {
+            "nsfw": true,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": true
+        },
+        "safe": false,
+        "id": 300,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "What happened to the cannibal who showed up late to Halloween dinner?",
+        "delivery": "They gave him the cold shoulder.",
+        "flags": {
+            "nsfw": true,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": false,
+        "id": 311,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "I'm not saying my son is ugly...",
+        "delivery": "But on Halloween he went to tell the neighbors to turn down their TV and they gave him some candy.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 313,
+        "lang": "en"
+    },
+    {
+        "category": "Spooky",
+        "type": "twopart",
+        "setup": "Why did the ghost go to the bar?",
+        "delivery": "To get sheet faced.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": true
+        },
+        "safe": false,
+        "id": 315,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "What do you call a deer with no eyes?",
+        "delivery": "No eye deer.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 210,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Why do cows wear bells?",
+        "delivery": "Because their horns don't work!",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 222,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Why shouldn't you visit an expensive wig shop?",
+        "delivery": "It's too high a price \"toupee.\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 268,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Mickey Mouse and Minnie Mouse are in the divorce court.\n\"Mickey\", the judge says, \"I'm sorry. I can't grant you a divorce on the grounds of insanity. Minnie seems quite sane to me.\"",
+        "delivery": "\"I didn't say she was insane\", exclaims Mickey.\n\"I said she was fucking Goofy.\"",
+        "flags": {
+            "nsfw": true,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": true
+        },
+        "id": 225,
+        "safe": false,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "I asked my wife if I was the only one she's been with.",
+        "delivery": "She said, \"Yes, the others were at least sevens or eights.\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 58,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Why do Hong Kong cops like to go to work early?",
+        "delivery": "To beat the crowd.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": true
+        },
+        "id": 136,
+        "safe": false,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "What do you call a caveman's fart?",
+        "delivery": "A blast from the past.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 317,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Why should you never talk to pi?",
+        "delivery": "Because it will go on forever.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 318,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "How did Harry Potter get down the hill?",
+        "delivery": "Walking...\nJK, Rolling.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 206,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "setup": "Why is crucified Jesus always depicted with six-pack abs?",
+        "delivery": "He did CrossFit.",
+        "flags": {
+            "nsfw": false,
+            "religious": true,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 60,
+        "safe": false,
+        "lang": "en"
+    }
+]

@@ -1,0 +1,5 @@
+first we have to make user input 
+then we have to restartQuiz the quiz 
+
+and also add the fun that user can choice the quiz type 
+

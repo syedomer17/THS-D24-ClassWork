@@ -1,0 +1,22 @@
+1.oops object-oriented programming 
+2.function programming
+
+object:
+
+Introduced in ES6 (ECMAScript 2015), the class syntax provides a clearer and more concise way to create objects and handle 
+inheritance. A class serves as a blueprint for creating objects with shared properties and methods. Although the class syntax is more traditional and familiar to developers with an OOP background, it's
+ essentially syntactic sugar over JavaScript's prototype-based inheritance.
+
+In object-oriented programming (OOP), an object is a unit of code that represents
+ a real-world entity and performs specific actions.
+ Objects are the basic building blocks of OOP programs
+
+class:
+
+In object-oriented programming (OOP), a class is a template that
+ defines the variables and methods of a particular type of object.
+ Classes are used to create and manage new objects
+
+ 2 ways to doing oop 
+ 1.prototype function
+ 2.useing class

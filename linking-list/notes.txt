@@ -1,0 +1,10 @@
+link list 
+
+A node consise of two thing 
+1.data 
+2.next
+
+operations :
+show 
+append
+prepend

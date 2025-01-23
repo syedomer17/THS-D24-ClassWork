@@ -1,0 +1,38 @@
+requirements 
+
+matrix additions
+matrix subration
+Dignoal of a matrix
+getting trace of the matrix
+
+how should a matrix look like 
+
+[
+    [1,2],
+    [3,4]
+]
+
+let mat1 = [
+//     [1,2],
+//     [3,4]
+// ]
+
+// /*
+// rows = mat1.length
+// col = (i) =
+// */
+// for(let i =0;i<mat1.length;i++){
+//     for(let j=0;j<mat1[i].length;j++){
+//         console.log(mat1[i][j]);
+//     }
+// }
+// console.log(mat1);
+
+1 0
+0 1
+
+2
+3
+
+1 2
+1 2 3
