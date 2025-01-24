@@ -14,6 +14,8 @@ b. .asyn|await
 
 setTimeOut :
 
+https://www.jsv9000.app
+
 1.If you don't give timer in setTimeOut then it will 
 follow from top to bottom.
 
@@ -30,3 +32,19 @@ operation will performs.
 
 7.if the setTimeOut times are same it will follow the Normal queue.
 
+callBack:It is also called as callBack hell because of nersted callBack
+
+-----------------------------------------------------------------------------
+
+promisers:
+
+promisers is a object that have three states:
+
+a.pendding (initail state of a promisers)
+b.resolve (when a Asynchronous task is Successfully works )
+c.rejected
+
+consupation of promisers:
+
+1. .then it will tell that the task is resolve
+2. .catch it will tell that the task is rejected
