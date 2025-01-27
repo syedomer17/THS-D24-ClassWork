@@ -14,7 +14,6 @@ function inputMatrix() {
       );
     }
   }
-  console.log("Matrix: ", matrix);
   return matrix;
 }
 
