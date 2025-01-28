@@ -16,6 +16,8 @@ async function main() {
         console.log(error);
     }
 }
+main();
+
 Age(18)
 .then((data)=>{
     console.log(data);
