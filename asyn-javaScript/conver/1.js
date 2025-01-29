@@ -1,6 +1,6 @@
 // const fs = require("fs/promises");
-const { error } = require("console")
-const fs = require("fs")
+const { error } = require("console");
+const fs = require("fs");
 
 // function  practice(data) {
 //     return new Promise((resolve, reject) => {
@@ -45,24 +45,23 @@ const fs = require("fs")
 
 // writefile
 
-function writeFilePromises(path,data){
-    return new Promise((resolve, reject) => {
-        fs.writeFile(path,data,(error,data)=>{
-            if(error){
-                reject(error)
-            }else{
-                resolve(data)
-            }
-        })
-    })
+function writeFilePromises(path, data) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      fs.writeFile(path, data, (error) => {
+      resolve("File written successfully");
+      });
+    }, 2000);
+  });
 }
 
 async function main() {
-    try {
-        await writeFilePromises("simple.txt","Hi,I'm Omer");
-        console.log("it is done");
-    } catch (error) {
-        console.log(error);
-    }
+  try {
+    console.log("2 seconds...");
+  let mess =  await writeFilePromises("simple.txt", "Hello,I'm Syed Omer Ali");
+    console.log(mess);
+  } catch (error) {
+    console.log(error);
+  }
 }
-main()
+main();
