@@ -4,11 +4,25 @@ const axios = require('axios');
 const UserName = readline.question("Enter Your Github UseName: ");
 
 const url = `https://api.github.com/users/${UserName}`;
+const repoUrl = `https://api.github.com/users/${UserName}/repos?per_page=100&sort=stars`;
 
 async function main() {
     try {
         const response = await axios.get(url);
         console.log(response.data);
+
+        const repo =  await axios.get(repoUrl);
+        const user = repo.data;
+
+        const topRepos = user
+          .sort((a, b) => b.stargazers_count - a.stargazers_count)
+          .slice(0, 10);
+
+               topRepos.forEach((repo, index) => {
+                 console.log(
+                   `${index + 1}. ${repo.name} - ⭐ ${repo.stargazers_count}`
+                 );
+               });
     } catch (error) {
         console.log(error);
     }
