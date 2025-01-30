@@ -15,12 +15,12 @@ async function main() {
         const user = repo.data;
 
         const topRepos = user
-          .sort((a, b) => b.stargazers_count - a.stargazers_count)
+          .sort((a, b) => b - a)
           .slice(0, 10);
 
                topRepos.forEach((repo, index) => {
                  console.log(
-                   `${index + 1}. ${repo.name} - ⭐ ${repo.stargazers_count}`
+                    `${index + 1}.${repo.name}  ` 
                  );
                });
     } catch (error) {
@@ -28,3 +28,4 @@ async function main() {
     }
 }
 main();
+
