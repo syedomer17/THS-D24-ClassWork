@@ -80,6 +80,7 @@ async await vs then catch
 when consuming a independent promises
 1. .then .catch (not in order, faster)
 2. async await (in order, slower)
+3. promise.all (order,faster then .then and .catch)
 
 when consuming a dependent promises
 1. async await (in order, slower)
