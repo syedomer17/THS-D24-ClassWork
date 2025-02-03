@@ -1,88 +1,97 @@
-synchronous : It will work sequienc
+Synchronous: it will follow a sequence, blocking code
 
-Asynchronous : It will not work on the sequiencly
+one
+two
 
----------------------------------------------------------------
+Asynchronous: it will not follow a sequence, non-blocking
 
-Asynchronous:
-1.callBack
-2.promisers
-a. .then|catch
-b. .asyn|await
+one
+two
 
------------------------------------------------------------------
 
-setTimeOut :
 
-https://www.jsv9000.app
+-----------------------------------
 
-1.If you don't give timer in setTimeOut then it will 
-follow from top to bottom.
-
-2.synchronous operation will perform first then the Asynchronous 
-operation will performs.
-
-3.Asynchronous is a non blocking i.e (all the setTimeOut will follow sequiencly).
-
-4.nested setTimeOut are dependet on the outer setTimeOut.
-
-5.All the Asynchronous setTimeOut will go task queue and also called macro queue.
-
-6.Normal function will go to the call stack.
-
-7.if the setTimeOut times are same it will follow the Normal queue.
-
-callBack:It is also called as callBack hell because of nersted callBack
-
------------------------------------------------------------------------------
-
-promisers:
-
-promisers is a object that have three states:
-
-a.pendding (initail state of a promisers)
-b.resolve (when a Asynchronous task is Successfully works )
-c.rejected
-
-consupation of promisers:
-
-1. .then it will tell that the task is resolve
-2. .catch it will tell that the task is rejected
-
-----------------------------------------------------------------------------------
-
-Ther are two way's to do a promisers
-
-1. .then .catch 
-2. asyn await
-
-important points for asyn and await:
-
-1.it does't have any build in error handlire
-2.you have to use try-catch
-3.add await befor the method that return the promise i.e (we have to use await until the promise is return)
-4.cahnge you function by adding asyn before the function 
-
------------------------------------------------------------------------------------------
-
-coustom promise
-converting callBack into promise
-
-------------------------------------------------------------------------------------------
+Asynchronous
+- Async Callbacks
+- Async Promises
+    a. then / catch
+    a. async / await
 
 File System
-NetWork request (API calls):
+Network Request (API call)
 
------------------------------------------------------------------------------------------
+
+-----------------------------------
+
+setTimeOut Observation:
+
+1. if we don't give any timers, it will follow top to bottom (queue)
+2. Synchronous operation will be be performed first, then async will be executed 
+3. setTimeout is a non blocking, where all timeouts will start at once
+4. nested setTimeout are dependent on the outer setTimeOut
+
+
+Event Loop Behaviour:
+https://www.jsv9000.app/
+1. All the async setTimeout will go to Task Queue also know as Macro Queue
+2. Normal functions will always go to Call Stack
+3. if the setTimeOut timers are same, then it will follow Queue FIFO operation,
+or else depends on the timer
+4. Event Loop make sures that all the Synchronous operation has been executed first,
+and the call stack is empty, then only it will allow task queue
+
+----------------------------------------------------------------------------------------
+
+Async Callbacks: 
+    Cons:
+      - Callback Hell (fs-examples/7.js)
+
+----------------------------------------------------------------------------------------
+Async Promises:  It's an object that have 3 states
+a. pending state (initial state of a promise)
+b. resolve state (when a async task is executed successfully)
+c. reject state  (when a async task got some error)
+
+
+Cosumption of a Promise
+1. using .then and .catch
+.then => it will go to .then block when the state of a promise is resolved
+.catch => it will go to .catch block when the state of a promise is rejected
+
+
+----------------------------------------------------------------------------------------
+Solving Callback Hell
+Solution::
+1. Promises (Promise Chaining)
+2. Async / Await
+
+
+async/await
+1. async/await doesn't have a built in error handling, 
+    use try/catch block
+2. add "await" keyword before the method that returns you a promise
+3. Change your function to async function by adding "async" keyword
+
+----------------------------------------------------------------------------------------
+Custom Promise
+Convert Callbacks to Promise
+
+
+----------------------------------------------------------------------------------------
 
 async await vs then catch
 
 when consuming a independent promises
-1. .then .catch (not in order, faster)
-2. async await (in order, slower)
-3. promise.all (order,faster then .then and .catch)
+1. Promise.all (order, faster) [Concurrent Request] [3_promises/17.js]
+2. .then .catch (not in order, faster) [Concurrent Request] [3_promises/12.js]
+3. async await (in order, slower) [3_promises/13.js]
 
 when consuming a dependent promises
-1. async await (in order, slower)
-2. promise chaining [.then .then ... .catch]
-3. nested .then .catch (PROMISE HELL) AVOID
+1. async await (in order, slower) [3_promises/16.js]
+2. promise chaining [.then .then ... .catch]  [3_promises/15.js]
+3. nested .then .catch (PROMISE HELL) AVOID [3_promises/14.js]
+
+Resources: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+
+----------------------------------------------------------------------------------------
