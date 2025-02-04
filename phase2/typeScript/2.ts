@@ -21,18 +21,18 @@ type
 //     bootcamp: string;
 // }
 
-type User = {
-  age: number;
-  bootcamp: string;
-};
+// type User = {
+//   age: number;
+//   bootcamp: string;
+// };
 
 function getAge(user: User): number {
   return user.age;
 }
 
-function getBootcamp(user: User): string {
-  return user.bootcamp;
-}
+// function getBootcamp(user: User): string {
+//   return user.bootcamp;
+// }
 
 // AVOID
 // function getUser(user) {

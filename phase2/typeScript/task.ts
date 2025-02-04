@@ -1,0 +1,135 @@
+// /*
+
+
+//  {
+//     "id": 9,
+//     "name": "Glenna Reichert",
+//     "username": "Delphine",
+//     "email": "Chaim_McDermott@dana.io",
+//     "address": {
+//       "street": "Dayna Park",
+//       "suite": "Suite 449",
+//       "city": "Bartholomebury",
+//       "zipcode": "76495-3109",
+//       "geo": {
+//         "lat": "24.6463",
+//         "lng": "-168.8889"
+//       }
+//     },
+//     "phone": "(775)976-6794 x41206",
+//     "website": "conrad.com",
+//     "company": {
+//       "name": "Yost and Sons",
+//       "catchPhrase": "Switchable contextually-based project",
+//       "bs": "aggregate real-time technologies"
+//     }
+//   },
+//   {
+//     "id": 10,
+//     "name": "Clementina DuBuque",
+//     "username": "Moriah.Stanton",
+//     "email": "Rey.Padberg@karina.biz",
+//     "address": {
+//       "street": "Kattie Turnpike",
+//       "suite": "Suite 198",
+//       "city": "Lebsackbury",
+//       "zipcode": "31428-2261",
+//       "geo": {
+//         "lat": "-38.2386",
+//         "lng": "57.2232"
+//       }
+//     },
+//     "phone": "024-648-3804",
+//     "website": "ambrose.net",
+//     "company": {
+//       "name": "Hoeger LLC",
+//       "catchPhrase": "Centralized empowering task-force",
+//       "bs": "target end-to-end models"
+//     }
+//   }
+// ]
+
+// */
+
+
+
+// type Geo = {
+//   lat: string;
+//   lng: string;
+// };
+
+// type Address = {
+//   street: string;
+//   suite: string;
+//   city: string;
+//   zipcode: string;
+//   geo: Geo;
+// };
+
+// type Company = {
+//   name: string;
+//   catchPhrase: string;
+//   bs: string;
+// };
+
+// type User = {
+//   id: number;
+//   name: string;
+//   username: string;
+//   email: string;
+//   address: Address;
+//   phone: string;
+//   website: string;
+//   company: Company;
+// };
+
+// const UserData: User[] = [
+//   {
+//     id: 9,
+//     name: "Glenna Reichert",
+//     username: "Delphine",
+//     email: "Chaim_McDermott@dana.io",
+//     address: {
+//       street: "Dayna Park",
+//       suite: "Suite 449",
+//       city: "Bartholomebury",
+//       zipcode: "76495-3109",
+//       geo: {
+//         lat: "24.6463",
+//         lng: "-168.8889",
+//       },
+//     },
+//     phone: "(775)976-6794 x41206",
+//     website: "conrad.com",
+//     company: {
+//       name: "Yost and Sons",
+//       catchPhrase: "Switchable contextually-based project",
+//       bs: "aggregate real-time technologies",
+//     },
+//   },
+//   {
+//     id: 10,
+//     name: "Clementina DuBuque",
+//     username: "Moriah.Stanton",
+//     email: "Rey.Padberg@karina.biz",
+//     address: {
+//       street: "Kattie Turnpike",
+//       suite: "Suite 198",
+//       city: "Lebsackbury",
+//       zipcode: "31428-2261",
+//       geo: {
+//         lat: "-38.2386",
+//         lng: "57.2232",
+//       },
+//     },
+//     phone: "024-648-3804",
+//     website: "ambrose.net",
+//     company: {
+//       name: "Hoeger LLC",
+//       catchPhrase: "Centralized empowering task-force",
+//       bs: "target end-to-end models",
+//     },
+//   },
+// ];
+
+// console.log(UserData);
