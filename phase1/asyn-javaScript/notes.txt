@@ -45,7 +45,7 @@ and the call stack is empty, then only it will allow task queue
 
 Async Callbacks: 
     Cons:
-      - Callback Hell (fs-examples/7.js)
+      - Callback Hell 
 
 ----------------------------------------------------------------------------------------
 Async Promises:  It's an object that have 3 states
@@ -83,14 +83,14 @@ Convert Callbacks to Promise
 async await vs then catch
 
 when consuming a independent promises
-1. Promise.all (order, faster) [Concurrent Request] [3_promises/17.js]
-2. .then .catch (not in order, faster) [Concurrent Request] [3_promises/12.js]
-3. async await (in order, slower) [3_promises/13.js]
+1. Promise.all (order, faster) [Concurrent Request]
+2. .then .catch (not in order, faster) [Concurrent Request]
+3. async await (in order, slower) 
 
 when consuming a dependent promises
-1. async await (in order, slower) [3_promises/16.js]
-2. promise chaining [.then .then ... .catch]  [3_promises/15.js]
-3. nested .then .catch (PROMISE HELL) AVOID [3_promises/14.js]
+1. async await (in order, slower)
+2. promise chaining [.then .then ... .catch]  
+3. nested .then .catch (PROMISE HELL) AVOID 
 
 Resources: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 
