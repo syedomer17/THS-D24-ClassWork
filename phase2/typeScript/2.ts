@@ -41,3 +41,16 @@ function getBootcamp(user: User): string {
 // getUser("hello")
 
 //----------------------------------------------
+
+let fruits: string[] = ["apple", "orange", "kiwi", "mango"];
+
+let fruits2: Array<string> = ["apple", "orange", "kiwi", "mango"];
+
+/*
+
+*/
+
+function getFruit(fruits: string[]) {
+  return fruits[0];
+}
+
