@@ -7,10 +7,10 @@ let user = {
     age:18,
     bootCamp:"THS-D24"
 }
-function getAge(user:{age:Number,bootCamp:String}){
-    console.log(user.age);
-}
-getAge(user)
+// function getAge(user:{age:Number,bootCamp:String}){
+//     console.log(user.age);
+// }
+// getAge(user)
 
 let array:string[]=['1','2','3'];
 array.push('5');
