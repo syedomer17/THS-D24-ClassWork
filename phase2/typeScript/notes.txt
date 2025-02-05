@@ -1,5 +1,0 @@
-While JavaScript is dynamically-typed, TypeScript is a statically-typed superset of JavaScript, which means it offers 
-strict static typing as an option but will allow dynamic typing, as well.As a result, TypeScript code is safer but a 
-little trickier to write, resulting in more errors earlier in development.
-
-tsc
