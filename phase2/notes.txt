@@ -1,0 +1,48 @@
+While JavaScript is dynamically-typed, TypeScript is a statically-typed superset 
+of JavaScript, which means it offers strict static typing as an option but will 
+allow dynamic typing, as well. As a result, TypeScript code is safer but a little
+ trickier to write, resulting in more errors earlier in development.
+
+
+Language Type
+JavaScript: A scripting language used for web development.
+TypeScript: A superset of JavaScript that adds extra features.
+Typing System
+JavaScript: Uses dynamic typing, meaning you don’t need to specify variable types.
+TypeScript: Uses static typing, meaning you must define variable types (like string, number, etc.).
+Error Checking
+JavaScript: Errors appear only when running the code.
+TypeScript: Errors appear while writing the code, helping catch mistakes early.
+Compilation
+JavaScript: Runs directly in the browser or Node.js.
+TypeScript: Needs to be compiled (converted) into JavaScript before running.
+Features
+JavaScript: Basic features for web development.
+TypeScript: Adds features like interfaces, classes, and better debugging tools.
+Usage
+JavaScript: Used by beginners for quick coding.
+TypeScript: Used in large projects for better structure and fewer errors.
+
+-----------------------------------------------------------------------------
+
+so in JavaScript we use npm init to initilize 
+
+so in TypeScript we use tsc --init 
+
+To convert a TypeScript file you need to write the command tsc fileName
+
+----------------------------------------------------------------
+
+"use strict"; is use to manage in JavaScript that 
+
+bootcamp = "hello"
+
+To avoid this thing we use "use strict"; in your file add it in your working file at 
+the top of the file 
+
+
+we you are converting js into ts 
+
+npm i --save-dev @types/node
+
+for ignore the errors use // @ts-ignore
