@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    border-radius: 12%;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+}
