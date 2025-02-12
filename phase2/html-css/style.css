@@ -8,8 +8,11 @@
     border-radius: 12%;
     background-color: cadetblue;
     text-align: center;
-    padding: 12px;
-    margin: 12px;
+    font-size: 12px;
+    justify-content: center;
+    display: inline-flexbox;
+    filter: drop-shadow(10px 6px 0px #000000);
+    padding: 12px 12px 12px 12px;
 }
 .center{
     display: flex;
