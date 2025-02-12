@@ -33,7 +33,7 @@ To convert a TypeScript file you need to write the command tsc fileName
 
 ----------------------------------------------------------------
 
-"use strict"; is use to manage in JavaScript that 
+"use strict": is use to manage in JavaScript that 
 
 bootcamp = "hello"
 
