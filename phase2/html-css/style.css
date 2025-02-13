@@ -11,12 +11,18 @@
     font-size: 12px;
     justify-content: center;
     display: inline-flexbox;
-    filter: drop-shadow(10px 6px 0px #000000);
     padding: 12px 12px 12px 12px;
+    filter: drop-shadow(10px 6px 0px #000000);
+    border-radius: 50%;
 }
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15%;
+}
+.one{
+    list-style-type: none;
+    margin: 10px;
+    padding: 8px;
 }
