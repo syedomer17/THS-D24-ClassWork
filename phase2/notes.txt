@@ -46,3 +46,51 @@ we you are converting js into ts
 npm i --save-dev @types/node
 
 for ignore the errors use // @ts-ignore
+
+
+html: preque
+css:  preque
+    tailwind css
+js dom
+
+react with typescript
+
+
+/*
+CSS Layouts
+    CSS Flexbox
+    CSS Grid
+    CSS Positioning: static(default), relative, absolute, fixed and sticky, z-index
+    CSS Floats (not used)
+*/
+
+--------------------------------------
+
+CSS Units
+
+Absolute
+px
+
+Relative
+%
+em
+rem
+
+--------------------------------------
+bootstrap
+
+- bootstrap.min.css (100 css properties)
+- text-success (1)
+final import : 100 css properties
+
+limited classes
+
+
+tailwind
+compile the css
+- tailwind.css (100 css properties)
+- text-red-100 (1)
+final import : 1 css properties
+
+- lot of classes
+- customizability
