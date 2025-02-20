@@ -1,0 +1,22 @@
+The Document Object Model (DOM) is a JavaScript interface that represents a web page's structure
+in memory. The DOM allows JavaScript to access and manipulate the page's content, style, and 
+structure. 
+
+How does the DOM work?
+1.The browser creates a DOM tree representation of the HTML document when it loads the page 
+2.JavaScript can access the DOM after the page has loaded 
+3.JavaScript can use the DOM to change the page's content, style, or structure
+
+--------------------------------------------------------------------------------------
+Target HTML Elements 
+
+document.getElementByTagName 
+document.getElementByClassName 
+document.getElementById
+document.getElementByName 
+
+document.querySelector
+document.querySelectorAll
+
+---------------------------------------------------------------------------------------
+
