@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Grid Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        td {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid black;
+            cursor: pointer;
+            background-color: lightgray;
+        }
+
+        td.disabled {
+            background-color: darkgray;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Prime Grid Game</h1>
+    <table>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

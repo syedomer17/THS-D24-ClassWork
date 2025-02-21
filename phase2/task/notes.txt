@@ -1,0 +1,24 @@
+// https://jsonplaceholder.typicode.com/todos
+
+/*
+    [
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "delectus aut autem",
+            "completed": false
+        }
+    ]
+*/
+
+/*
+if the completed is true => Done
+if it is false => Pending
+
+--------------------------------------------------------
+userId  |    id     |     title    |   completed
+--------------------------------------------------------
+1            1             abc           Pending 
+
+
+*/

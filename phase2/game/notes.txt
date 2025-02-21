@@ -1,0 +1,23 @@
+create a grid of 
+
+easy : 10X10
+medium:25X25
+hard:50X50
+
+what are prime Number 
+numbers which are devisable by 2 
+
+Rules:
+1.If the user click on a prime number then he will lose 
+2.If the user click on non prime number 
+  we will disable the cell 
+  we will disable the multiples of that number 
+  ex:2,4,6,8,10
+3.If the user click on 1 he will win 
+
+Additional 
+1.we will track the number of clicks (score)
+2.audio(win,lose or click cell )
+3.we can store the user data and display a leaderbored
+4.user should selecte the difficulty 
+
