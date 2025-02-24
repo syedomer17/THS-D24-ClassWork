@@ -3,9 +3,9 @@ let cells = 10;
 let score = 0;
 let userName = "";
 let leaderboard = [];
-let audioWin = new Audio("win.mp3");
-let audioLose = new Audio("lose.mp3");
-let audioClick = new Audio("click.mp3");
+let audioWin = new Audio("./assets/win.mp3");
+let audioLose = new Audio("./assets/lose.mp3");
+let audioClick = new Audio("./assets/click.mp3");
 
 document.getElementById("startBtn").addEventListener("click", startGame);
 
