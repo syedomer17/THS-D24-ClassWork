@@ -31,10 +31,30 @@
 
 <body>
     <h1>Prime Grid Game</h1>
+    <label for="userName">Enter your Name:</label>
+    <input type="text" id="userName" placeholder="You Name">
+
+    <label for="difficulty">Select Difficulty</label>
+    <select id="difficulty">
+        <option value="10">Easy</option>
+        <option value="25">Medium</option>
+        <option value="50">Hard</option>
+    </select>
+
+
+    <button id="startBtn">Start Game</button>
+
+    <h2>Score : <span id="score">0</span></h2>
+
     <table>
         <tbody>
         </tbody>
     </table>
+
+    <div id="leaderboard">
+        <h3>Leaderboard</h3>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
