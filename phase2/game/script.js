@@ -1,17 +1,19 @@
 const tbody = document.querySelector("tbody");
 let cells = 10;
 let score = 0;
-let userName = "";
-let leaderboard = [];
+let userName = localStorage.getItem("userName") || "";
+let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
 let audioWin = new Audio("./assets/win.mp3");
 let audioLose = new Audio("./assets/lose.mp3");
 let audioClick = new Audio("./assets/click.mp3");
 
 document.getElementById("startBtn").addEventListener("click", startGame);
-
 document.getElementById("difficulty").addEventListener("change", function () {
   cells = parseInt(this.value);
+  localStorage.setItem("cells", cells);
 });
+
+displayLeaderboard();
 
 function startGame() {
   userName = document.getElementById("userName").value;
@@ -19,6 +21,7 @@ function startGame() {
     alert("Please enter your name!");
     return;
   }
+  localStorage.setItem("userName", userName);
   resetGame();
   generateGrid();
 }
@@ -27,6 +30,7 @@ function resetGame() {
   tbody.innerHTML = "";
   score = 0;
   document.getElementById("score").textContent = score;
+  localStorage.setItem("score", score);
 }
 
 function generateGrid() {
@@ -71,6 +75,7 @@ function userHandleClick(e) {
     removeMultiples(numClicked);
     score++;
     document.getElementById("score").textContent = score;
+    localStorage.setItem("score", score);
     audioClick.play();
   }
 }
@@ -99,6 +104,7 @@ function isPrime(N) {
 function updateLeaderboard(name, score) {
   leaderboard.push({ name, score });
   leaderboard.sort((a, b) => a.score - b.score);
+  localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
   displayLeaderboard();
 }
 
