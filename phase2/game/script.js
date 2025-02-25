@@ -63,6 +63,7 @@ function userHandleClick(e) {
     alert("You have lost the game, " + userName + "!");
     audioLose.play();
     updateLeaderboard(userName, score);
+    window.reload()
     resetGame();
   } else if (numClicked === 1) {
     alert("Congratulations " + userName + "! You won the game!");
