@@ -111,9 +111,56 @@ function updateLeaderboard(name, score) {
 function displayLeaderboard() {
   let leaderboardElement = document.getElementById("leaderboard");
   leaderboardElement.innerHTML = "<h3>Leaderboard</h3>";
-  leaderboard.forEach((entry, index) => {
-    leaderboardElement.innerHTML += `<p>${index + 1}. ${entry.name} - ${
-      entry.score
-    }</p>`;
+
+  if (leaderboard.length === 0) {
+    leaderboardElement.innerHTML += "<p>No scores yet!</p>";
+    return;
+  }
+
+  let table = document.createElement("table");
+  table.style.borderCollapse = "collapse";
+  table.style.width = "50%";
+  table.style.margin = "10px auto";
+
+  let thead = document.createElement("thead");
+  let headerRow = document.createElement("tr");
+  let headers = ["Rank", "Name", "Score"];
+
+  headers.forEach((headerText) => {
+    let th = document.createElement("th");
+    th.textContent = headerText;
+    th.style.border = "1px solid black";
+    th.style.padding = "5px";
+    headerRow.appendChild(th);
   });
+
+  thead.appendChild(headerRow);
+  table.appendChild(thead);
+
+  let tbody = document.createElement("tbody");
+
+  leaderboard.forEach((entry, index) => {
+    let row = document.createElement("tr");
+    let rankCell = document.createElement("td");
+    let nameCell = document.createElement("td");
+    let scoreCell = document.createElement("td");
+
+    rankCell.textContent = index + 1;
+    nameCell.textContent = entry.name;
+    scoreCell.textContent = entry.score;
+
+    [rankCell, nameCell, scoreCell].forEach((cell) => {
+      cell.style.border = "1px solid black";
+      cell.style.padding = "5px";
+      cell.style.textAlign = "center";
+    });
+
+    row.appendChild(rankCell);
+    row.appendChild(nameCell);
+    row.appendChild(scoreCell);
+    tbody.appendChild(row);
+  });
+
+  table.appendChild(tbody);
+  leaderboardElement.appendChild(table);
 }

@@ -1,8 +1,8 @@
 create a grid of 
 
 easy : 10X10✅
-medium:25X25
-hard:50X50
+medium:25X25✅
+hard:50X50✅
 
 what are prime Number 
 numbers which are devisable by 2 ✅
@@ -13,12 +13,24 @@ Rules:
   we will disable the cell 
   we will disable the multiples of that number 
   ex:2,4,6,8,10
-3.If the user click on 1 he will win 
+3.If the user click on 1 he will win ✅
 
-Additional 
-1.we will track the number of clicks (score)
-2.audio(win,lose or click cell )
-3.we can store the user data and display a leaderbored
-4.user should selecte the difficulty 
-5.we will ask the user for his/her name and display name in html 
+Additional ✅
+1.we will track the number of clicks (score)✅
+2.audio(win,lose or click cell )✅
+3.we can store the user data and display a leaderbored✅
+4.user should selecte the difficulty ✅
+5.we will ask the user for his/her name and display name in html ✅
 
+and also store the userData in localStorage ✅
+
+and Display the userData in the Table ✅
+
+if the two users are having same score then it should be in the localStorage
+
+[
+  {
+    name : ["bob","ali"],
+    score: 2
+  }
+]
