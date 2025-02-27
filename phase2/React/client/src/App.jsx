@@ -1,12 +1,24 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+import Sections from "./components/Sections";
+import Tour from "./components/Tour";
+import Modal from "./components/Modal";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-  let fruits = ['mango','apple','banana']
+
   return (
     <>
-    <h1>Hello React.js</h1>
-    <p>{fruits.map((ele)=> <h1 key={ele}>{ele}</h1>)}</p>
+    <Navbar />
+    <Page />
+    <Sections />
+    <Tour />
+    <Modal />
+    <Contact />
+    <Footer />
     </>
   )
 }

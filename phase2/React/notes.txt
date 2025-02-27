@@ -1,0 +1,10 @@
+what is components?
+A React component is a reusable piece of code that defines a part of a user 
+interface. Components are the building blocks of React applications. 
+
+How do React components work?
+Structure: Components are written as JavaScript functions. They can contain 
+markup (HTML), logic (JS), and styles (CSS). 
+Data flow: Components accept inputs called props and return React elements. 
+Props are passed from parent to child components. 
+Reusability: Components can be reused across different parts of an application.
