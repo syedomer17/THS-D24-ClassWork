@@ -7,18 +7,20 @@ import Tour from "./components/Tour";
 import Modal from "./components/Modal";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import StateHook from "./components/StateHook";
 
 function App() {
 
   return (
     <>
-    <Navbar />
+    {/* <Navbar />
     <Page />
     <Sections />
     <Tour />
     <Modal />
     <Contact />
-    <Footer />
+    <Footer /> */}
+    <StateHook />
     </>
   )
 }
