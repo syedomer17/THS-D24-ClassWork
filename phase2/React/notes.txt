@@ -8,3 +8,113 @@ markup (HTML), logic (JS), and styles (CSS).
 Data flow: Components accept inputs called props and return React elements. 
 Props are passed from parent to child components. 
 Reusability: Components can be reused across different parts of an application.
+
+1. html, css and js(dom)
+2. html, css and jquery
+3. js template engines: ejs, pug
+4. react
+
+
+//jquery
+var hiddenBox = $( "#banner-message" );
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
+
+//dom
+var hiddenBox = document.getElementById("banner-message")
+var btn = document.querySelector("#button-container button")
+btn.addEventListener("click",()=>{
+  hiddenBox.show();
+})
+
+
+
+-------------------------------------------------
+React::
+SPA (Single Page Application)
+Client Side Rendering (CSR)
+
+Next::
+Server Side Rendering (SSR)
+
+---------------------------------------------------------
+Components: A js function that returns JSX
+A React component is a reusable piece of code that defines a part of a user interface. 
+Components are the building blocks of React applications. 
+
+How do React components work?
+Structure: Components are written as JavaScript functions. They can contain markup (HTML), logic (JS), and styles (CSS). 
+Data flow: Components accept inputs called props and return React elements. Props are passed from parent to child components. 
+Reusability: Components can be reused across different parts of an application.
+
+Ex: Greeings function
+Normal function: Greetings()
+Component: <Greetings />
+
+note: you can't return more than one element from the component, you need to wrap in a single enclosing tag
+
+<React.Fragment>
+</React.Fragment>
+
+<>
+</>
+
+Component name has to be in Pascal Case
+
+---------------------------------------------------------
+
+Props:
+Data flow: Components accept inputs called props and return React elements. Props are passed from parent to child components. 
+
+Note: Data can be only passed from Parent Component to Child Component (Top to Bottom)
+
+- props will be received as a object
+props.name
+props.age
+- you can destructure the fields using object destructuring
+example is given in Greetings.jsx component
+
+Parent: <App />
+Child: <Greeings />
+
+<Greeings name="john" />
+
+function Greetings(props){
+  /*
+       {name:"john"}
+
+
+       props.name //access name
+  */
+
+}
+
+
+
+---------------------------------------------------------
+Convert html to jsx : https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h
+JSX: 
+html + js
+if you want to use js you need wrap the expression with flowerbracets
+<h1> 1 + 1 </h1>  => 1 + 1
+<h1> { 1 + 1 }</h1>  => 2
+
+
+key differnces between HTML and JSX
+1. html class => className
+
+2. Inline CSS
+style="padding:128px 16px"
+style={{ padding: "128px 16px" }}
+
+3. All the tags need to be closed
+4. html for attribute => htmlFor 
+5. html onclick => onClick
+
+
+---------------------------------------------------------
+conditional Rendering
+
+handle 2 conditons: use ternary operator
+handle 1 condition: use &&
