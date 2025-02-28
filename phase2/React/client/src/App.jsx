@@ -8,6 +8,7 @@ import Modal from "./components/Modal";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import StateHook from "./components/StateHook";
+import TodoList from "./components/TodoList";
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
     <Modal />
     <Contact />
     <Footer /> */}
-    <StateHook />
+    {/* <StateHook /> */}
+    <TodoList />
     </>
   )
 }
